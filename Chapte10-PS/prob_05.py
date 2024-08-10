@@ -1,9 +1,7 @@
 from random import randint
 
 class Train:
-
-    def __init__(self):
-        self.trainNo = 12399 
+    trainNo = 45234
 
     def booking(self, fro, to):
         print(f"Your ticket is booken in trainNo: {self.trainNo} from {fro} to {to}")
